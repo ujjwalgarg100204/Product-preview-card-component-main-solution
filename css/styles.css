@@ -77,6 +77,9 @@ body {
 .struck-cost {;
     display: inline;
     text-decoration: line-through;
+    position: relative;
+    bottom: 10px;
+    left: 25px
 }
 
 .add-to-cart {
@@ -96,6 +99,7 @@ body {
     text-decoration: none;
     text-align: center;
     border-width: 0;
+    font-weight: 700;
 }
 
 .btn:hover {
