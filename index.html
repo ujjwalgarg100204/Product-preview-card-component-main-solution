@@ -7,6 +7,10 @@
 
     <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz@9..144&family=Montserrat&display=swap"
+          rel="stylesheet">
 
     <title>Frontend Mentor | Product preview card component</title>
 
@@ -15,7 +19,7 @@
 
 <div class="container">
     <div class="preview">
-
+        <img src="images/image-product-desktop.jpg" alt="">
     </div>
     <div class="about">
         <div class="heading">
@@ -29,7 +33,11 @@
         <div class="footer">
             <h2 class="cost">$149.99</h2>
             <h4 class="struck-cost">$169.99</h4>
-            <button type="button">Add to Cart</button>
+        </div>
+        <div class="add-to-cart">
+            <button class="btn" type="button">
+                <img src="images/icon-cart.svg" alt="cart-image" class="cart">Add to Cart
+            </button>
         </div>
     </div>
 </div>
